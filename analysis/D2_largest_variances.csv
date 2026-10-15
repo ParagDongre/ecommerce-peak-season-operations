@@ -1,0 +1,16 @@
+﻿rank,date,day_label,metric,unit,planned,actual,variance,variance_pct,kind,data_label
+1,2026-11-22,E7,Fulfilment exceptions,count (planned = baseline rate x forecast orders),1010.18,6911.0,5900.82,584.13,volume,SIMULATED
+2,2026-11-21,E6,Fulfilment exceptions,count (planned = baseline rate x forecast orders),871.28,2674.0,1802.72,206.9,volume,SIMULATED
+3,2026-11-16,E1,Fulfilment exceptions,count (planned = baseline rate x forecast orders),839.89,1965.0,1125.11,133.96,volume,SIMULATED
+4,2026-11-20,E5,Fulfilment exceptions,count (planned = baseline rate x forecast orders),743.21,1685.0,941.79,126.72,volume,SIMULATED
+5,2026-11-19,E4,Fulfilment exceptions,count (planned = baseline rate x forecast orders),685.48,1362.0,676.52,98.69,volume,SIMULATED
+6,2026-11-16,E1,Cancellations,count (planned = baseline rate x forecast orders),875.75,1414.0,538.25,61.46,volume,SIMULATED
+7,2026-11-17,E2,Cancellations,count (planned = baseline rate x forecast orders),729.79,1127.0,397.21,54.43,volume,SIMULATED
+8,2026-11-17,E2,SLA attainment,% within threshold (planned = target),80.0,37.6,-42.4,-53.0,service,SIMULATED
+9,2026-11-22,E7,SLA attainment,% within threshold (planned = target),80.0,42.5,-37.5,-46.88,service,SIMULATED
+10,2026-11-18,E3,SLA attainment,% within threshold (planned = target),80.0,56.3,-23.7,-29.62,service,SIMULATED
+11,2026-11-22,E7,Workload hours,agent-hours of handling work,438.7,558.88,120.18,27.39,volume,SIMULATED
+12,2026-11-16,E1,SLA attainment,% within threshold (planned = target),80.0,99.4,19.4,24.25,service,SIMULATED
+13,2026-11-19,E4,SLA attainment,% within threshold (planned = target),80.0,98.7,18.7,23.38,service,SIMULATED
+14,2026-11-21,E6,Workload hours,agent-hours of handling work,378.38,466.56,88.18,23.31,volume,SIMULATED
+15,2026-11-21,E6,SLA attainment,% within threshold (planned = target),80.0,62.5,-17.5,-21.88,service,SIMULATED

@@ -1,0 +1,12 @@
+﻿event_id,date,day_label,event_type,description,owning_team,modelled_effect,data_label
+EV01,2026-11-16,E1,Stock-out,Promotional items sell out; orders for them are cancelled.,Inventory / Operations,+1.2 pts cancellation rate; extra cancel/modify contacts,SIMULATED
+EV06,2026-11-16,E1,Evening deal drop,Unscheduled-in-forecast lightning deal at 20:00-21:59.,Marketing / Merchandising,x1.3 intraday weight at 20:00-22:00,SIMULATED
+EV09,2026-11-16,E1,Fulfilment capacity exceeded,"Orders above 36,000/day dispatch late.",Fulfilment / Operations,60% of excess orders late,SIMULATED
+EV02,2026-11-17,E2,Stock-out,Promotional items sell out; orders for them are cancelled.,Inventory / Operations,+1.2 pts cancellation rate; extra cancel/modify contacts,SIMULATED
+EV03,2026-11-18,E3,Absence spike,Hypothetical regional disruption raises unplanned absence.,Workforce Planning,Absence 12% vs 6% baseline,SIMULATED
+EV04,2026-11-19,E4,Carrier disruption,Hypothetical carrier network disruption delays deliveries.,Fulfilment / Transport,+3 pts late-shipment rate; delay contacts follow 1-2 days later,SIMULATED
+EV07,2026-11-19,E4,Evening deal drop,Unscheduled-in-forecast lightning deal at 20:00-21:59.,Marketing / Merchandising,x1.3 intraday weight at 20:00-22:00,SIMULATED
+EV05,2026-11-20,E5,Carrier disruption,Hypothetical carrier network disruption delays deliveries.,Fulfilment / Transport,+3 pts late-shipment rate; delay contacts follow 1-2 days later,SIMULATED
+EV10,2026-11-21,E6,Fulfilment capacity exceeded,"Orders above 36,000/day dispatch late.",Fulfilment / Operations,60% of excess orders late,SIMULATED
+EV08,2026-11-22,E7,Evening deal drop,Unscheduled-in-forecast lightning deal at 20:00-21:59.,Marketing / Merchandising,x1.3 intraday weight at 20:00-22:00,SIMULATED
+EV11,2026-11-22,E7,Fulfilment capacity exceeded,"Orders above 36,000/day dispatch late.",Fulfilment / Operations,60% of excess orders late,SIMULATED

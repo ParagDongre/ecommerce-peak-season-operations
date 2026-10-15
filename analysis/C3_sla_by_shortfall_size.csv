@@ -1,0 +1,11 @@
+﻿analysis,gap_bin,group_hours,mean_sla_pct,share_hours_below_target_pct,mean_response_sec,mean_end_backlog,data_label
+overall,no shortfall,168.0,88.4,8.9,260.9,7.3,SIMULATED
+overall,1-2 agents short,17.0,58.0,58.8,919.8,30.4,SIMULATED
+overall,3-5 agents short,21.0,35.3,76.2,1240.9,57.2,SIMULATED
+overall,6+ agents short,18.0,12.2,94.4,2657.3,146.1,SIMULATED
+stratified by workload tercile,low load / not short,72.0,96.9,4.2,,,SIMULATED
+stratified by workload tercile,low load / short,3.0,0.0,100.0,,,SIMULATED
+stratified by workload tercile,mid load / not short,59.0,91.6,8.5,,,SIMULATED
+stratified by workload tercile,mid load / short,15.0,34.0,80.0,,,SIMULATED
+stratified by workload tercile,high load / not short,37.0,77.6,18.9,,,SIMULATED
+stratified by workload tercile,high load / short,38.0,31.8,73.7,,,SIMULATED

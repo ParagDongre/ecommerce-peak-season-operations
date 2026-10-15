@@ -1,0 +1,3 @@
+﻿skill_group,1_forecast_workload_hours,2_actual_workload_hours,3_required_agent_hours_on_forecast_(scheduled_basis),4_planned_required_agent_hours_(incl_buffer_and_hourly_rounding),5_scheduled_agent_hours,6_absence_agent_hours_lost,7_available_agent_hours,8_required_present_agent_hours_on_actual_(rounded),9_net_surplus_(+)_or_gap_(-)_agent_hours,10_hourly_shortfall_agent_hours_(gross),11_hourly_surplus_agent_hours_(gross),data_label
+OD,1138.6,1415.7,1619.4,1843.0,2128.0,176.0,1952.0,1947.0,5.0,246.0,251.0,SIMULATED
+RP,1259.3,1278.0,1791.0,2026.0,2392.0,112.0,2280.0,1765.0,515.0,29.0,544.0,SIMULATED

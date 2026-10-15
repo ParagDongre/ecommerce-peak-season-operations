@@ -1,0 +1,62 @@
+﻿id,category,parameter,value,unit,basis,rationale,data_label
+A01,Run control,seed,42,integer,Design choice (scenario parameter),Fixed seed so every dataset is reproducible.,SIMULATED
+A02,Run control,mc_replications,200,count,Design choice (scenario parameter),"Monte Carlo replications (each re-draws orders, contacts, AHT and absences) used to show stochastic ranges for scenarios.",SIMULATED
+A03,Calendar,baseline_start,2026-11-09,date,Design choice (scenario parameter),Hypothetical calendar; the baseline week precedes the event week.,SIMULATED
+A04,Calendar,n_baseline_days,7,days,Design choice (scenario parameter),Baseline week used to learn contact rates and hourly profile.,SIMULATED
+A05,Calendar,n_event_days,7,days,Design choice (scenario parameter),"Seven-day promotional event, per the project brief.",SIMULATED
+A06,Orders,baseline_orders_per_day,15000,orders/day,Design choice (scenario parameter),Scale chosen so the support team is tens of agents per hour at peak.,SIMULATED
+A07,Orders,baseline_dow_factor,"(0.97, 0.97, 0.98, 1.0, 1.03, 1.05, 1.0)",multiplier Mon-Sun,Design choice (scenario parameter),Mild weekend lift; averages to 1.0.,SIMULATED
+A08,Orders,order_noise_sd,0.03,fraction,Design choice (scenario parameter),Day-level random variation in actual orders.,SIMULATED
+A09,Orders,actual_event_multiplier,"(2.6, 2.1, 1.9, 1.8, 2.0, 2.4, 3.0)",x baseline,Design choice (scenario parameter),Actual event-day demand: launch (E1) and finale (E7) are the peaks.,SIMULATED
+A10,Orders,plan_event_multiplier,"(2.4, 2.0, 1.9, 1.9, 2.0, 2.3, 2.8)",x baseline,Design choice (scenario parameter),Planning team's forecast curve: smoother than reality and slightly under-calls launch and finale. This is the planted forecast bias.,SIMULATED
+A11,Fulfilment,fulfilment_capacity_orders_per_day,36000,orders/day,Design choice (scenario parameter),Orders above this ship late; links demand to delivery-delay contacts.,SIMULATED
+A12,Fulfilment,late_share_of_excess_orders,0.6,fraction,Design choice (scenario parameter),Share of over-capacity orders that dispatch late.,SIMULATED
+A13,Fulfilment,base_late_shipment_rate,0.015,fraction of orders,Design choice (scenario parameter),Background late-dispatch rate.,SIMULATED
+A14,Fulfilment,failed_delivery_rate,0.006,fraction of orders,Design choice (scenario parameter),Address/delivery-failure exceptions.,SIMULATED
+A15,Fulfilment,damaged_missing_rate,0.003,fraction of orders,Design choice (scenario parameter),Damaged or missing item exceptions.,SIMULATED
+A16,Fulfilment,carrier_disruption_event_days,"(3, 4)",event-day index (0 = E1),Design choice (scenario parameter),Hypothetical carrier network disruption on E4-E5.,SIMULATED
+A17,Fulfilment,carrier_disruption_extra_late_rate,0.03,fraction of orders,Design choice (scenario parameter),Extra late-shipment rate on disruption days.,SIMULATED
+A18,Cancellations,base_cancel_rate,0.025,fraction of orders,Design choice (scenario parameter),Background cancellation rate (all causes).,SIMULATED
+A19,Cancellations,base_stockout_cancel_rate,0.004,fraction of orders,Design choice (scenario parameter),Part of cancellations caused by stock-outs.,SIMULATED
+A20,Cancellations,stockout_event_days,"(0, 1)",event-day index (0 = E1),Design choice (scenario parameter),Promo items sell out on launch days E1-E2.,SIMULATED
+A21,Cancellations,stockout_extra_cancel_rate,0.012,fraction of orders,Design choice (scenario parameter),Extra stock-out cancellations on those days.,SIMULATED
+A22,Returns,base_return_rate,0.06,fraction of orders,Design choice (scenario parameter),Share of normal orders later returned.,SIMULATED
+A23,Returns,event_return_rate,0.08,fraction of orders,Design choice (scenario parameter),Higher return propensity for promotional/impulse purchases.,SIMULATED
+A24,Returns,return_lag_days,"(3, 4, 5, 6, 7, 8, 9)",days after order,Design choice (scenario parameter),Returns are initiated 3-9 days after the order.,SIMULATED
+A25,Returns,return_lag_weights,"(0.1, 0.18, 0.2, 0.18, 0.14, 0.12, 0.08)",fraction,Design choice (scenario parameter),Distribution of return timing; sums to 1. Returns contacts therefore arrive after the event peak.,SIMULATED
+A26,Contact rates,wismo_per_order,0.032,contacts/order,Design choice (scenario parameter),'Where is my order' contacts per order placed.,SIMULATED
+A27,Contact rates,wismo_lag_weights,"(0.4, 0.6)","fraction (same day, prior day)",Design choice (scenario parameter),Timing of order-status contacts.,SIMULATED
+A28,Contact rates,delay_contacts_per_exception,0.55,contacts/exception,Design choice (scenario parameter),Delivery-exception contact propensity.,SIMULATED
+A29,Contact rates,delay_lag_weights,"(0.6, 0.4)","fraction (1 day, 2 days later)",Design choice (scenario parameter),Delay contacts follow the exception by 1-2 days.,SIMULATED
+A30,Contact rates,cancel_modify_per_order,0.01,contacts/order,Design choice (scenario parameter),Customer-initiated cancel/modify contacts.,SIMULATED
+A31,Contact rates,contacts_per_stockout_cancel,0.8,contacts/cancellation,Design choice (scenario parameter),Customers contacting about stock-out cancellations.,SIMULATED
+A32,Contact rates,contacts_per_return,0.4,contacts/return,Design choice (scenario parameter),Share of returns that generate a contact (rest self-serve).,SIMULATED
+A33,Contact rates,payment_promo_per_order,0.007,contacts/order,Design choice (scenario parameter),Payment and promo-code issue contacts.,SIMULATED
+A34,Contact rates,payment_promo_event_factor,1.5,x baseline rate,Design choice (scenario parameter),Promo codes drive more payment/promo contacts during the event.,SIMULATED
+A35,Contact rates,product_enquiry_per_order,0.015,contacts/order,Design choice (scenario parameter),Product and promotion enquiries.,SIMULATED
+A36,Contact rates,product_enquiry_event_factor,1.3,x baseline rate,Design choice (scenario parameter),More enquiries during the event.,SIMULATED
+A37,Contact rates,contact_day_effect_sd,0.04,fraction,Design choice (scenario parameter),Day-level over-dispersion on top of hourly Poisson noise.,SIMULATED
+A38,Intraday,hourly_profile,"(0.02, 0.03, 0.042, 0.052, 0.06, 0.062, 0.058, 0.056, 0.058, 0.066, 0.08, 0.092, 0.098, 0.09, 0.07, 0.066)","share of daily contacts, 07:00-22:00",Design choice (scenario parameter),Evening-weighted profile typical of consumer e-commerce; sums to 1.,SIMULATED
+A39,Intraday,deal_drop_event_days,"(0, 3, 6)",event-day index (0 = E1),Design choice (scenario parameter),"Evening lightning deals on E1, E4, E7 that the forecast profile does not anticipate.",SIMULATED
+A40,Intraday,deal_drop_hours,"(20, 21)",hour of day,Design choice (scenario parameter),Hours affected by the deal-drop uplift.,SIMULATED
+A41,Intraday,deal_drop_uplift,1.3,x profile weight,Design choice (scenario parameter),"Uplift applied to those hours, then the profile is renormalised.",SIMULATED
+A42,Handling time,aht_sec,"(240, 420, 300, 480, 540, 270)",seconds per contact,Design choice (scenario parameter),Per-category average handling time (order of CATEGORIES). Returns and payment contacts take longer.,SIMULATED
+A43,Handling time,event_aht_complexity_factor,1.05,x baseline AHT,Design choice (scenario parameter),Promo rules and exceptions make contacts ~5% longer in the event; not in the plan.,SIMULATED
+A44,Handling time,aht_noise_sd,0.03,fraction,Design choice (scenario parameter),Hour-level random variation in AHT.,SIMULATED
+A45,Workforce,shrinkage,0.12,fraction of present time,Illustrative planning convention (typical range; not sourced from any company),"Breaks, coaching, meetings, system downtime for agents who are present. Absence is a separate parameter; planners schedule against planned_shrinkage = 1-(1-shrinkage)*(1-baseline_absence_rate).",SIMULATED
+A46,Workforce,target_occupancy,0.85,fraction,Illustrative planning convention (typical range; not sourced from any company),Planning occupancy used to compute required staffing.,SIMULATED
+A47,Workforce,max_throughput_occupancy,0.95,fraction,Modelling simplification,Physical ceiling on occupancy in the queue model (agents cannot be 100% busy).,SIMULATED
+A48,Workforce,planning_buffer,0.1,fraction,Illustrative planning convention (typical range; not sourced from any company),"Peak-season contingency planners add on top of forecast-based requirements (calibrated: 5% gave an unhealthy baseline week, see methodology calibration log).",SIMULATED
+A49,Workforce,roster_over_weight,0.15,weight,Modelling simplification,"Greedy roster optimiser penalises over-cover at 15% of the weight of shortfall (calibrated from 35%, see methodology calibration log).",SIMULATED
+A50,Workforce,baseline_absence_rate,0.06,fraction of scheduled agents,Design choice (scenario parameter),Background unplanned absence.,SIMULATED
+A51,Workforce,event_absence_rate,"(0.06, 0.06, 0.12, 0.06, 0.06, 0.08, 0.08)",fraction per event day,Design choice (scenario parameter),E3 spike (hypothetical regional disruption/illness) and mild late-event fatigue on E6-E7.,SIMULATED
+A52,Service level,sla_target,0.8,fraction,Design choice (scenario parameter),Target share of contacts answered within the threshold.,SIMULATED
+A53,Service level,sla_threshold_sec,300,seconds,Design choice (scenario parameter),Response threshold for the SLA (blended chat/phone-style queue).,SIMULATED
+A54,Scenarios,forecast_correction_lookback_days,2,days,Design choice (scenario parameter),Rolling forecast correction uses the trailing N event days.,SIMULATED
+A55,Scenarios,forecast_correction_bounds,"(0.85, 1.35)","ratio (low, high)",Design choice (scenario parameter),Caps on the correction ratio to avoid over-reacting.,SIMULATED
+A56,Scenarios,profile_blend_weight,0.5,weight on observed profile,Design choice (scenario parameter),Blend of observed intraday shape and the baseline profile.,SIMULATED
+A57,Scenarios,flex_share,0.2,fraction of agents,Design choice (scenario parameter),Share of agents cross-trained to serve both queues.,SIMULATED
+A58,Scenarios,flex_aht_penalty,0.1,fraction,Design choice (scenario parameter),Cross-trained agents are 10% slower on the non-primary queue.,SIMULATED
+A59,Scenarios,extra_peak_agents_per_group_day,6,agents per group per event day,Design choice (scenario parameter),Approved additional capacity on the 17:00-22:00 peak-cover shift (S3: spread evenly over both queues).,SIMULATED
+A60,Scenarios,extra_peak_targeted_group,OD,skill group,Design choice (scenario parameter),"S4/S5/S6: the same total extra agents (2 x per-group number) all assigned to this queue, i.e. same paid hours as S3 but targeted at the bottleneck queue.",SIMULATED
+A61,Workforce,planned_shrinkage (derived),0.1728,fraction,Modelling simplification,Derived: scheduling shrinkage = non-absence shrinkage combined with the planned (baseline) absence allowance.,SIMULATED

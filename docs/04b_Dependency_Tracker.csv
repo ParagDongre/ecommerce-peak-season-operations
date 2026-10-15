@@ -1,0 +1,10 @@
+﻿dependency_id,provider,consumer,deliverable,linked_risks,needed_by,status,data_label
+D01,Operations (Fulfilment),Workforce Planning,Daily late-shipment/exception counts by 10:00,"R02, R09",2026-11-11,Open,SIMULATED
+D02,Operations (Inventory),Customer Support,Stock-out alerts for promo items (>= 24 h notice),R02,2026-11-11,Open,SIMULATED
+D03,Marketing,Workforce Planning,Approved promo calendar incl. deal drops (72 h notice),R03,2026-11-06,Open,SIMULATED
+D04,Workforce Planning,Customer Support,Corrected daily roster by 14:00 for next day,"R01, R11",2026-11-15,Open,SIMULATED
+D05,Customer Support Training,Workforce Planning,Cross-trained agent certification list,R08,2026-11-02,Open,SIMULATED
+D06,Finance / Leadership,Workforce Planning,Approval of additional peak-cover capacity,R10,2026-11-02,Open,SIMULATED
+D07,HR / Scheduling,Customer Support,Absence reporting same-day by 08:00; shift-swap protocol,"R04, R12",2026-11-13,Open,SIMULATED
+D08,Customer Support,Workforce Planning,Daily AHT and backlog actuals,"R06, R07",2026-11-16,Open,SIMULATED
+D09,Workforce Planning,Leadership,Daily SLA/backlog status and escalation notes,"R06, R11",2026-11-16,Open,SIMULATED

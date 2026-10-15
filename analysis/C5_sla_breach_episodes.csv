@@ -1,0 +1,12 @@
+﻿skill_group,date,day_label,start_hour,end_hour,duration_hours,hours_with_shortfall,shortfall_at_start_hour,shortfall_within_prior_2_hours_or_start,min_sla_pct,peak_backlog,data_label
+OD,2026-11-17,E2,9,22,14,11,True,True,0.0,193.8,SIMULATED
+OD,2026-11-18,E3,7,16,10,6,False,False,0.0,97.3,SIMULATED
+OD,2026-11-18,E3,18,21,4,3,True,True,0.0,58.1,SIMULATED
+OD,2026-11-20,E5,10,11,2,2,True,True,60.9,0.0,SIMULATED
+OD,2026-11-21,E6,10,15,6,5,True,True,0.0,64.8,SIMULATED
+OD,2026-11-21,E6,19,22,4,2,True,True,0.0,103.7,SIMULATED
+OD,2026-11-22,E7,7,7,1,0,False,False,75.0,0.0,SIMULATED
+OD,2026-11-22,E7,10,22,13,10,True,True,0.0,449.5,SIMULATED
+RP,2026-11-21,E6,10,10,1,1,True,True,73.3,12.2,SIMULATED
+RP,2026-11-21,E6,13,13,1,1,True,True,71.9,0.0,SIMULATED
+RP,2026-11-22,E7,19,20,2,2,True,True,61.7,20.8,SIMULATED

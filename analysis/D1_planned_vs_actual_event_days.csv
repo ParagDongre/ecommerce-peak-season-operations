@@ -1,0 +1,71 @@
+﻿date,day_label,metric,unit,planned,actual,variance,variance_pct,kind,data_label
+2026-11-16,E1,Orders,orders,34920.0,37791.0,2871.0,8.22,volume,SIMULATED
+2026-11-16,E1,Fulfilment exceptions,count (planned = baseline rate x forecast orders),839.89,1965.0,1125.11,133.96,volume,SIMULATED
+2026-11-16,E1,Cancellations,count (planned = baseline rate x forecast orders),875.75,1414.0,538.25,61.46,volume,SIMULATED
+2026-11-16,E1,Customer contacts,contacts,3743.0,3344.0,-399.0,-10.66,volume,SIMULATED
+2026-11-16,E1,Workload hours,agent-hours of handling work,364.75,320.76,-43.99,-12.06,volume,SIMULATED
+2026-11-16,E1,Average handling time,seconds,350.81,345.31,-5.5,-1.57,rate,SIMULATED
+2026-11-16,E1,Required staffing (scheduled basis),agent-hours (planned incl. 10% buffer),587.0,473.0,-114.0,-19.42,volume,SIMULATED
+2026-11-16,E1,Staff on shift vs plan,agent-hours (scheduled vs available after absence),688.0,656.0,-32.0,-4.65,supply,SIMULATED
+2026-11-16,E1,SLA attainment,% within threshold (planned = target),80.0,99.4,19.4,24.25,service,SIMULATED
+2026-11-16,E1,End-of-day backlog,contacts (planned = 0),0.0,0.0,0.0,,service,SIMULATED
+2026-11-17,E2,Orders,orders,29100.0,30812.0,1712.0,5.88,volume,SIMULATED
+2026-11-17,E2,Fulfilment exceptions,count (planned = baseline rate x forecast orders),699.91,693.0,-6.91,-0.99,volume,SIMULATED
+2026-11-17,E2,Cancellations,count (planned = baseline rate x forecast orders),729.79,1127.0,397.21,54.43,volume,SIMULATED
+2026-11-17,E2,Customer contacts,contacts,3119.2,3695.0,575.8,18.46,volume,SIMULATED
+2026-11-17,E2,Workload hours,agent-hours of handling work,303.96,365.12,61.16,20.12,volume,SIMULATED
+2026-11-17,E2,Average handling time,seconds,350.81,355.73,4.92,1.4,rate,SIMULATED
+2026-11-17,E2,Required staffing (scheduled basis),agent-hours (planned incl. 10% buffer),494.0,533.0,39.0,7.89,volume,SIMULATED
+2026-11-17,E2,Staff on shift vs plan,agent-hours (scheduled vs available after absence),576.0,544.0,-32.0,-5.56,supply,SIMULATED
+2026-11-17,E2,SLA attainment,% within threshold (planned = target),80.0,37.6,-42.4,-53.0,service,SIMULATED
+2026-11-17,E2,End-of-day backlog,contacts (planned = 0),0.0,126.0,126.0,,service,SIMULATED
+2026-11-18,E3,Orders,orders,27930.0,28020.0,90.0,0.32,volume,SIMULATED
+2026-11-18,E3,Fulfilment exceptions,count (planned = baseline rate x forecast orders),671.77,691.0,19.23,2.86,volume,SIMULATED
+2026-11-18,E3,Cancellations,count (planned = baseline rate x forecast orders),700.45,703.0,2.55,0.36,volume,SIMULATED
+2026-11-18,E3,Customer contacts,contacts,2993.8,3156.0,162.2,5.42,volume,SIMULATED
+2026-11-18,E3,Workload hours,agent-hours of handling work,291.74,321.62,29.88,10.24,volume,SIMULATED
+2026-11-18,E3,Average handling time,seconds,350.81,366.86,16.05,4.58,rate,SIMULATED
+2026-11-18,E3,Required staffing (scheduled basis),agent-hours (planned incl. 10% buffer),471.0,473.0,2.0,0.42,volume,SIMULATED
+2026-11-18,E3,Staff on shift vs plan,agent-hours (scheduled vs available after absence),560.0,520.0,-40.0,-7.14,supply,SIMULATED
+2026-11-18,E3,SLA attainment,% within threshold (planned = target),80.0,56.3,-23.7,-29.62,service,SIMULATED
+2026-11-18,E3,End-of-day backlog,contacts (planned = 0),0.0,0.0,0.0,,service,SIMULATED
+2026-11-19,E4,Orders,orders,28500.0,25444.0,-3056.0,-10.72,volume,SIMULATED
+2026-11-19,E4,Fulfilment exceptions,count (planned = baseline rate x forecast orders),685.48,1362.0,676.52,98.69,volume,SIMULATED
+2026-11-19,E4,Cancellations,count (planned = baseline rate x forecast orders),714.74,639.0,-75.74,-10.6,volume,SIMULATED
+2026-11-19,E4,Customer contacts,contacts,3054.9,2859.0,-195.9,-6.41,volume,SIMULATED
+2026-11-19,E4,Workload hours,agent-hours of handling work,297.69,285.59,-12.1,-4.06,volume,SIMULATED
+2026-11-19,E4,Average handling time,seconds,350.81,359.61,8.8,2.51,rate,SIMULATED
+2026-11-19,E4,Required staffing (scheduled basis),agent-hours (planned incl. 10% buffer),483.0,424.0,-59.0,-12.22,volume,SIMULATED
+2026-11-19,E4,Staff on shift vs plan,agent-hours (scheduled vs available after absence),560.0,536.0,-24.0,-4.29,supply,SIMULATED
+2026-11-19,E4,SLA attainment,% within threshold (planned = target),80.0,98.7,18.7,23.38,service,SIMULATED
+2026-11-19,E4,End-of-day backlog,contacts (planned = 0),0.0,0.0,0.0,,service,SIMULATED
+2026-11-20,E5,Orders,orders,30900.0,32363.0,1463.0,4.73,volume,SIMULATED
+2026-11-20,E5,Fulfilment exceptions,count (planned = baseline rate x forecast orders),743.21,1685.0,941.79,126.72,volume,SIMULATED
+2026-11-20,E5,Cancellations,count (planned = baseline rate x forecast orders),774.93,801.0,26.07,3.36,volume,SIMULATED
+2026-11-20,E5,Customer contacts,contacts,3312.1,3592.0,279.9,8.45,volume,SIMULATED
+2026-11-20,E5,Workload hours,agent-hours of handling work,322.76,375.12,52.37,16.23,volume,SIMULATED
+2026-11-20,E5,Average handling time,seconds,350.81,375.96,25.15,7.17,rate,SIMULATED
+2026-11-20,E5,Required staffing (scheduled basis),agent-hours (planned incl. 10% buffer),522.0,549.0,27.0,5.17,volume,SIMULATED
+2026-11-20,E5,Staff on shift vs plan,agent-hours (scheduled vs available after absence),608.0,584.0,-24.0,-3.95,supply,SIMULATED
+2026-11-20,E5,SLA attainment,% within threshold (planned = target),80.0,96.0,16.0,20.0,service,SIMULATED
+2026-11-20,E5,End-of-day backlog,contacts (planned = 0),0.0,0.0,0.0,,service,SIMULATED
+2026-11-21,E6,Orders,orders,36225.0,38941.0,2716.0,7.5,volume,SIMULATED
+2026-11-21,E6,Fulfilment exceptions,count (planned = baseline rate x forecast orders),871.28,2674.0,1802.72,206.9,volume,SIMULATED
+2026-11-21,E6,Cancellations,count (planned = baseline rate x forecast orders),908.47,990.0,81.53,8.97,volume,SIMULATED
+2026-11-21,E6,Customer contacts,contacts,3882.9,4494.0,611.1,15.74,volume,SIMULATED
+2026-11-21,E6,Workload hours,agent-hours of handling work,378.38,466.56,88.18,23.31,volume,SIMULATED
+2026-11-21,E6,Average handling time,seconds,350.81,373.75,22.93,6.54,rate,SIMULATED
+2026-11-21,E6,Required staffing (scheduled basis),agent-hours (planned incl. 10% buffer),608.0,681.0,73.0,12.01,volume,SIMULATED
+2026-11-21,E6,Staff on shift vs plan,agent-hours (scheduled vs available after absence),712.0,648.0,-64.0,-8.99,supply,SIMULATED
+2026-11-21,E6,SLA attainment,% within threshold (planned = target),80.0,62.5,-17.5,-21.88,service,SIMULATED
+2026-11-21,E6,End-of-day backlog,contacts (planned = 0),0.0,33.4,33.4,,service,SIMULATED
+2026-11-22,E7,Orders,orders,42000.0,45609.0,3609.0,8.59,volume,SIMULATED
+2026-11-22,E7,Fulfilment exceptions,count (planned = baseline rate x forecast orders),1010.18,6911.0,5900.82,584.13,volume,SIMULATED
+2026-11-22,E7,Cancellations,count (planned = baseline rate x forecast orders),1053.3,1168.0,114.7,10.89,volume,SIMULATED
+2026-11-22,E7,Customer contacts,contacts,4501.9,5321.0,819.1,18.19,volume,SIMULATED
+2026-11-22,E7,Workload hours,agent-hours of handling work,438.7,558.88,120.18,27.39,volume,SIMULATED
+2026-11-22,E7,Average handling time,seconds,350.81,378.12,27.3,7.78,rate,SIMULATED
+2026-11-22,E7,Required staffing (scheduled basis),agent-hours (planned incl. 10% buffer),704.0,812.0,108.0,15.34,volume,SIMULATED
+2026-11-22,E7,Staff on shift vs plan,agent-hours (scheduled vs available after absence),816.0,744.0,-72.0,-8.82,supply,SIMULATED
+2026-11-22,E7,SLA attainment,% within threshold (planned = target),80.0,42.5,-37.5,-46.88,service,SIMULATED
+2026-11-22,E7,End-of-day backlog,contacts (planned = 0),0.0,399.9,399.9,,service,SIMULATED

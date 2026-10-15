@@ -1,0 +1,7 @@
+﻿issue_category,label,baseline_avg_daily,event_avg_daily,event_total,event_share_pct,uplift_avg_daily,uplift_pct,share_of_total_uplift_pct,cumulative_event_share_pct,rank_by_event_contacts,data_label
+order_status,Order status (where is my order),490.4,1009.4,7066,26.7,519.0,105.8,23.92,26.7,1,SIMULATED
+delivery_delay,Delivery delay / exception,205.3,674.4,4721,17.84,469.1,228.5,21.62,44.54,2,SIMULATED
+product_enquiry,Product & promo enquiries,226.6,645.0,4515,17.06,418.4,184.6,19.29,61.6,3,SIMULATED
+cancel_modify,Cancellation / modification,211.4,555.7,3890,14.7,344.3,162.9,15.87,76.3,4,SIMULATED
+returns_refunds,Returns & refunds,367.4,529.4,3706,14.01,162.0,44.1,7.47,90.31,5,SIMULATED
+payment_promo,Payment & promo-code issues,109.6,366.1,2563,9.69,256.5,234.0,11.82,100.0,6,SIMULATED
